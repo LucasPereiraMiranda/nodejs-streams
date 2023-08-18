@@ -2,7 +2,7 @@
 // stdout -> stream de saida
 // process.stdin.pipe(process.stdout);
 
-import { Readable } from 'node:stream';
+import { Readable, Transform } from 'node:stream';
 
 class RandomNumberStream extends Readable {
   constructor(options) {
@@ -21,4 +21,18 @@ class RandomNumberStream extends Readable {
   }
 }
 
-new RandomNumberStream();
+class FilterEvenNumbersStream extends Transform {
+  _transform(chunk, encoding, callback) {
+    const number = Number(chunk.toString());
+    if (number % 2 === 0) {
+      const buffer = Buffer.from(String(number));
+      callback(null, buffer);
+    } else {
+      callback();
+    }
+  }
+}
+
+new RandomNumberStream()
+  .pipe(new FilterEvenNumbersStream())
+  .pipe(new MultiplyByFiveStream());
