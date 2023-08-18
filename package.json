@@ -1,11 +1,11 @@
 {
   "name": "node-streams",
-  "type":"module",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev":"node --watch src/server.js"
+    "start:dev": "node --watch src/server.js"
   },
   "keywords": [],
   "author": "Lucas Pereira Miranda",
