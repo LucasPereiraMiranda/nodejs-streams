@@ -35,3 +35,8 @@ Node.Js streams was developed with these technologies
 ## 💻 Project
 
 This project has been developed with the primary objective of studying and exploring the principles of Node.js streams in general.
+
+
+## License
+
+[Creative Commons Zero (CC0) 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
