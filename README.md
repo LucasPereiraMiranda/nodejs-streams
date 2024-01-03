@@ -27,7 +27,7 @@
 
 ## 🚀 Techs
 
-Node.Js streams was developed with these technologies
+Node.Js streams study project was developed with these technologies:
 
 - [Node](https://nodejs.org/en)
 - [Streams](https://nodejs.org/api/stream.html)
