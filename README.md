@@ -21,3 +21,13 @@
     <img alt="GitHub license" src="https://img.shields.io/github/license/LucasPereiraMiranda/nodejs-streams">
   </a>
 </p>
+
+
+<br>
+
+## 🚀 Techs
+
+Node.Js streams was developed with these technologies
+
+- [Node](https://nodejs.org/en)
+- [Streams](https://nodejs.org/api/stream.html)
