@@ -40,8 +40,18 @@ This project has been developed with the primary objective of studying and explo
 
 Streams in Node.js provide a reliable framework for managing data asynchronously, offering controlled and incremental reading and writing. Operating on data in manageable chunks, these small, asynchronous pieces optimize efficiency. Additionally, streams incorporate methods like pipe, simplifying the seamless transfer of data between different streams. This architecture enhances the reliability and performance of data processing operations in applications.
 
+## :boom: Installation & Run
 
+```bash
+# clone this repo
+$ git git@github.com:LucasPereiraMiranda/nodejs-streams.git
 
+# with nvm installed with node v20.5.1
+$ nvm use
+
+# We can start app with npm
+$ npm start:dev
+```
 
 ## License
 
