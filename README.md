@@ -50,7 +50,7 @@ $ git git@github.com:LucasPereiraMiranda/nodejs-streams.git
 $ nvm use
 
 # We can start app with npm
-$ npm start:dev
+$ npm run start
 ```
 
 ## License
