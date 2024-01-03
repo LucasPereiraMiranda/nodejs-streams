@@ -44,7 +44,7 @@ Streams in Node.js provide a reliable framework for managing data asynchronously
 
 ```bash
 # clone this repo
-$ git git@github.com:LucasPereiraMiranda/nodejs-streams.git
+$ git clone git@github.com:LucasPereiraMiranda/nodejs-streams.git
 
 # with nvm installed with node v20.5.1
 $ nvm use
