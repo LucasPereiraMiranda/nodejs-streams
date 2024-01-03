@@ -31,3 +31,7 @@ Node.Js streams was developed with these technologies
 
 - [Node](https://nodejs.org/en)
 - [Streams](https://nodejs.org/api/stream.html)
+
+## 💻 Project
+
+This project has been developed with the primary objective of studying and exploring the principles of Node.js streams in general.
