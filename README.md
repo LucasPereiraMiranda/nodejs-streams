@@ -36,6 +36,12 @@ Node.Js streams was developed with these technologies
 
 This project has been developed with the primary objective of studying and exploring the principles of Node.js streams in general.
 
+# Streams
+
+Streams in Node.js provide a reliable framework for managing data asynchronously, offering controlled and incremental reading and writing. Operating on data in manageable chunks, these small, asynchronous pieces optimize efficiency. Additionally, streams incorporate methods like pipe, simplifying the seamless transfer of data between different streams. This architecture enhances the reliability and performance of data processing operations in applications.
+
+
+
 
 ## License
 
