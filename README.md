@@ -27,7 +27,7 @@
 
 ## 🚀 Techs
 
-Node.Js streams was developed with these technologies
+Node.Js streams study project was developed with these technologies:
 
 - [Node](https://nodejs.org/en)
 - [Streams](https://nodejs.org/api/stream.html)
@@ -36,7 +36,7 @@ Node.Js streams was developed with these technologies
 
 This project has been developed with the primary objective of studying and exploring the principles of Node.js streams in general.
 
-# Streams
+## :ocean: Streams
 
 Streams in Node.js provide a reliable framework for managing data asynchronously, offering controlled and incremental reading and writing. Operating on data in manageable chunks, these small, asynchronous pieces optimize efficiency. Additionally, streams incorporate methods like pipe, simplifying the seamless transfer of data between different streams. This architecture enhances the reliability and performance of data processing operations in applications.
 
@@ -44,13 +44,13 @@ Streams in Node.js provide a reliable framework for managing data asynchronously
 
 ```bash
 # clone this repo
-$ git git@github.com:LucasPereiraMiranda/nodejs-streams.git
+$ git clone git@github.com:LucasPereiraMiranda/nodejs-streams.git
 
 # with nvm installed with node v20.5.1
 $ nvm use
 
 # We can start app with npm
-$ npm start:dev
+$ npm run start
 ```
 
 ## License
